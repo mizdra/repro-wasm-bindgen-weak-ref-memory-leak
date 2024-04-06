@@ -1,0 +1,12 @@
+{
+  "name": "repro-wasm-bindgen-weak-ref-memory-leak",
+  "version": "1.0.0",
+  "description": "Repro for wasm-bindgen's weak ref memory leak",
+  "type": "commonjs",
+  "author": "mizdra <pp.mizdra@gmail.com>",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "typescript": "^5.4.4"
+  }
+}

@@ -1,5 +1,5 @@
 [package]
-name = "repro-wasm-bindgen-weak-ref-memory-leak"
+name = "my-buffer"
 version = "0.1.0"
 edition = "2021"
 
