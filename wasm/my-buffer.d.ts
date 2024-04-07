@@ -6,9 +6,9 @@ export class MyBuffer {
   free(): void;
 /**
 * @param {number} size
-* @returns {MyBuffer}
+* @returns {Promise<MyBuffer>}
 */
-  static new(size: number): MyBuffer;
+  static new(size: number): Promise<MyBuffer>;
 /**
 * @returns {Uint8Array}
 */

@@ -8,7 +8,7 @@ pub struct MyBuffer {
 
 #[wasm_bindgen]
 impl MyBuffer {
-    pub fn new(size: usize) -> MyBuffer {
+    pub async fn new(size: usize) -> MyBuffer {
         let data = vec![0; size];
         MyBuffer { data }
     }
